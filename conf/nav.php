@@ -1,0 +1,5 @@
+; <?php /*
+
+swiftsearch/index = Search
+
+; */ ?>

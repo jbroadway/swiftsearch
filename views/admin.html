@@ -1,0 +1,27 @@
+<div class="form">
+<form method="post" id="{{_form}}">
+
+<h3>{"Configuring Swiftype"}</h3>
+
+<p>{"Step 1."} {"Log into your Swiftype.com account and create a search engine for your website."}</p>
+
+<p>{"Step 2."} {"In the install tab, select <em>Different page</em> and enter <tt>/swiftsearch</tt> in the <em>Search results page address</em>."}</p>
+
+<p>{"Step 3."} {"Check <em>My website needs a search field</em> and <em>My website needs a search results container</em> then save your configuration."}</p>
+
+<p>{"Step 4."} {"Click on the <em>Swiftype install code</em> link on the same page, then copy and paste the embed code into the form below:"}</p>
+
+<p>
+    <b>{"Swiftype embed code"}:</b><br />
+    <textarea name="embed_code" cols="70" rows="8">{{ embed_code }}</textarea><br />
+    <span class="notice" id="embed_code-notice">{"Please enter your Swiftype embed code."}</span>
+</p>
+
+<p>
+    <button>{"Save Settings"}</button>
+    <a href="/myapp/admin"
+       onclick="return confirm ('{'Are you sure you want to cancel?'}')">{"Cancel"}</a>
+</p>
+
+</form>
+</div>
