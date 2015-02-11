@@ -5,7 +5,7 @@ $this->require_acl ('admin', $this->app);
 
 // set the layout and page title
 $page->layout = 'admin';
-$page->title = __ ('Swiftsearch Settings');
+$page->title = __ ('Swiftsearch');
 
 // create the form
 $form = new Form ('post', $this);

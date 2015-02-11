@@ -6,8 +6,8 @@ embed_code = ""
 
 [Admin]
 
-name = Swiftsearch Settings
+name = Swiftsearch
 handler = swiftsearch/admin
-version = 0.2.0-alpha
+version = 1.0.0-stable
 
 ; */ ?>

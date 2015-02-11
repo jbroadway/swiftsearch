@@ -4,6 +4,7 @@
     "description": "Swiftype search service integration for the Elefant CMS",
     "keywords": ["search", "search engine", "swiftype", "admin", "elefant", "cms", "app"],
     "license": "MIT",
+    "version": "1.0.0",
 	"authors": [
 		{
 			"name": "Johnny Broadway",
